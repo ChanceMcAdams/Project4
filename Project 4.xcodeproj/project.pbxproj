@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2874009C1A9A6E72008B6E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874009B1A9A6E72008B6E8C /* main.m */; };
+		2874009F1A9A6E72008B6E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874009E1A9A6E72008B6E8C /* AppDelegate.m */; };
+		287400A21A9A6E72008B6E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287400A11A9A6E72008B6E8C /* ViewController.m */; };
+		287400A51A9A6E72008B6E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287400A31A9A6E72008B6E8C /* Main.storyboard */; };
+		287400A71A9A6E72008B6E8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287400A61A9A6E72008B6E8C /* Images.xcassets */; };
+		287400AA1A9A6E72008B6E8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 287400A81A9A6E72008B6E8C /* LaunchScreen.xib */; };
+		287400B61A9A6E72008B6E8C /* Project_4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287400B51A9A6E72008B6E8C /* Project_4Tests.m */; };
+		287400C11A9A6F4E008B6E8C /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 287400C01A9A6F4E008B6E8C /* CustomTableViewCell.m */; };
+		287400C41A9A7441008B6E8C /* MovieInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 287400C31A9A7441008B6E8C /* MovieInfo.m */; };
+		287400C71A9A74DD008B6E8C /* TheaterInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 287400C61A9A74DD008B6E8C /* TheaterInfo.m */; };
+		287401141A9A7CAD008B6E8C /* american_sniper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287400FB1A9A7CAD008B6E8C /* american_sniper.jpg */; };
+		287401151A9A7CAD008B6E8C /* big_hero_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287400FC1A9A7CAD008B6E8C /* big_hero_6.jpg */; };
+		287401161A9A7CAD008B6E8C /* birdman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287400FD1A9A7CAD008B6E8C /* birdman.jpg */; };
+		287401171A9A7CAD008B6E8C /* boyhood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287400FE1A9A7CAD008B6E8C /* boyhood.jpg */; };
+		287401181A9A7CAD008B6E8C /* equalizer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287400FF1A9A7CAD008B6E8C /* equalizer.jpg */; };
+		287401191A9A7CAD008B6E8C /* fifty_shades.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401001A9A7CAD008B6E8C /* fifty_shades.jpg */; };
+		2874011A1A9A7CAD008B6E8C /* fury.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401011A9A7CAD008B6E8C /* fury.jpg */; };
+		2874011B1A9A7CAD008B6E8C /* gone_girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401021A9A7CAD008B6E8C /* gone_girl.jpg */; };
+		2874011C1A9A7CAD008B6E8C /* horrible_bosses_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401031A9A7CAD008B6E8C /* horrible_bosses_2.jpg */; };
+		2874011D1A9A7CAD008B6E8C /* hot_tub.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401041A9A7CAD008B6E8C /* hot_tub.jpg */; };
+		2874011E1A9A7CAD008B6E8C /* imitation_game.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401051A9A7CAD008B6E8C /* imitation_game.jpg */; };
+		2874011F1A9A7CAD008B6E8C /* john_wick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401061A9A7CAD008B6E8C /* john_wick.jpg */; };
+		287401201A9A7CAD008B6E8C /* jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401071A9A7CAD008B6E8C /* jupiter.jpg */; };
+		287401211A9A7CAD008B6E8C /* kingsman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401081A9A7CAD008B6E8C /* kingsman.jpg */; };
+		287401221A9A7CAD008B6E8C /* lotr_fellowship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401091A9A7CAD008B6E8C /* lotr_fellowship.jpg */; };
+		287401231A9A7CAD008B6E8C /* lotr_return.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2874010A1A9A7CAD008B6E8C /* lotr_return.jpg */; };
+		287401241A9A7CAD008B6E8C /* lotr_towers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2874010B1A9A7CAD008B6E8C /* lotr_towers.jpg */; };
+		287401251A9A7CAD008B6E8C /* lucy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2874010C1A9A7CAD008B6E8C /* lucy.jpg */; };
+		287401261A9A7CAD008B6E8C /* nightcrawler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2874010D1A9A7CAD008B6E8C /* nightcrawler.jpg */; };
+		287401271A9A7CAD008B6E8C /* project_almanac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2874010E1A9A7CAD008B6E8C /* project_almanac.jpg */; };
+		287401281A9A7CAD008B6E8C /* seventh_son.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2874010F1A9A7CAD008B6E8C /* seventh_son.jpg */; };
+		287401291A9A7CAD008B6E8C /* spongebob.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401101A9A7CAD008B6E8C /* spongebob.jpg */; };
+		2874012A1A9A7CAD008B6E8C /* sw_hope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401111A9A7CAD008B6E8C /* sw_hope.jpg */; };
+		2874012B1A9A7CAD008B6E8C /* sw_phantom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401121A9A7CAD008B6E8C /* sw_phantom.jpg */; };
+		2874012C1A9A7CAD008B6E8C /* treehouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 287401131A9A7CAD008B6E8C /* treehouse.jpg */; };
+		2874012F1A9A8BC5008B6E8C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874012E1A9A8BC5008B6E8C /* DetailViewController.m */; };
+		287401321A9A9230008B6E8C /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287401311A9A9230008B6E8C /* MovieViewController.m */; };
+		287401341A9A94ED008B6E8C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287401331A9A94ED008B6E8C /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		287400B01A9A6E72008B6E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2874008E1A9A6E72008B6E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 287400951A9A6E72008B6E8C;
+			remoteInfo = "Project 4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		287400961A9A6E72008B6E8C /* Project 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2874009A1A9A6E72008B6E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2874009B1A9A6E72008B6E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2874009D1A9A6E72008B6E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2874009E1A9A6E72008B6E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		287400A01A9A6E72008B6E8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		287400A11A9A6E72008B6E8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		287400A41A9A6E72008B6E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		287400A61A9A6E72008B6E8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		287400A91A9A6E72008B6E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		287400AF1A9A6E72008B6E8C /* Project 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		287400B41A9A6E72008B6E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287400B51A9A6E72008B6E8C /* Project_4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project_4Tests.m; sourceTree = "<group>"; };
+		287400BF1A9A6F4E008B6E8C /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		287400C01A9A6F4E008B6E8C /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		287400C21A9A7441008B6E8C /* MovieInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieInfo.h; sourceTree = "<group>"; };
+		287400C31A9A7441008B6E8C /* MovieInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieInfo.m; sourceTree = "<group>"; };
+		287400C51A9A74DD008B6E8C /* TheaterInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheaterInfo.h; sourceTree = "<group>"; };
+		287400C61A9A74DD008B6E8C /* TheaterInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheaterInfo.m; sourceTree = "<group>"; };
+		287400FB1A9A7CAD008B6E8C /* american_sniper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = american_sniper.jpg; sourceTree = "<group>"; };
+		287400FC1A9A7CAD008B6E8C /* big_hero_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = big_hero_6.jpg; sourceTree = "<group>"; };
+		287400FD1A9A7CAD008B6E8C /* birdman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = birdman.jpg; sourceTree = "<group>"; };
+		287400FE1A9A7CAD008B6E8C /* boyhood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boyhood.jpg; sourceTree = "<group>"; };
+		287400FF1A9A7CAD008B6E8C /* equalizer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = equalizer.jpg; sourceTree = "<group>"; };
+		287401001A9A7CAD008B6E8C /* fifty_shades.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fifty_shades.jpg; sourceTree = "<group>"; };
+		287401011A9A7CAD008B6E8C /* fury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fury.jpg; sourceTree = "<group>"; };
+		287401021A9A7CAD008B6E8C /* gone_girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gone_girl.jpg; sourceTree = "<group>"; };
+		287401031A9A7CAD008B6E8C /* horrible_bosses_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horrible_bosses_2.jpg; sourceTree = "<group>"; };
+		287401041A9A7CAD008B6E8C /* hot_tub.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hot_tub.jpg; sourceTree = "<group>"; };
+		287401051A9A7CAD008B6E8C /* imitation_game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imitation_game.jpg; sourceTree = "<group>"; };
+		287401061A9A7CAD008B6E8C /* john_wick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = john_wick.jpg; sourceTree = "<group>"; };
+		287401071A9A7CAD008B6E8C /* jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jupiter.jpg; sourceTree = "<group>"; };
+		287401081A9A7CAD008B6E8C /* kingsman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kingsman.jpg; sourceTree = "<group>"; };
+		287401091A9A7CAD008B6E8C /* lotr_fellowship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lotr_fellowship.jpg; sourceTree = "<group>"; };
+		2874010A1A9A7CAD008B6E8C /* lotr_return.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lotr_return.jpg; sourceTree = "<group>"; };
+		2874010B1A9A7CAD008B6E8C /* lotr_towers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lotr_towers.jpg; sourceTree = "<group>"; };
+		2874010C1A9A7CAD008B6E8C /* lucy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lucy.jpg; sourceTree = "<group>"; };
+		2874010D1A9A7CAD008B6E8C /* nightcrawler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nightcrawler.jpg; sourceTree = "<group>"; };
+		2874010E1A9A7CAD008B6E8C /* project_almanac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = project_almanac.jpg; sourceTree = "<group>"; };
+		2874010F1A9A7CAD008B6E8C /* seventh_son.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seventh_son.jpg; sourceTree = "<group>"; };
+		287401101A9A7CAD008B6E8C /* spongebob.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spongebob.jpg; sourceTree = "<group>"; };
+		287401111A9A7CAD008B6E8C /* sw_hope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sw_hope.jpg; sourceTree = "<group>"; };
+		287401121A9A7CAD008B6E8C /* sw_phantom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sw_phantom.jpg; sourceTree = "<group>"; };
+		287401131A9A7CAD008B6E8C /* treehouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = treehouse.jpg; sourceTree = "<group>"; };
+		2874012D1A9A8BC5008B6E8C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2874012E1A9A8BC5008B6E8C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		287401301A9A9230008B6E8C /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		287401311A9A9230008B6E8C /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		287401331A9A94ED008B6E8C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		287400931A9A6E72008B6E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287401341A9A94ED008B6E8C /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287400AC1A9A6E72008B6E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2874008D1A9A6E72008B6E8C = {
+			isa = PBXGroup;
+			children = (
+				287401331A9A94ED008B6E8C /* MediaPlayer.framework */,
+				287400981A9A6E72008B6E8C /* Project 4 */,
+				287400B21A9A6E72008B6E8C /* Project 4Tests */,
+				287400971A9A6E72008B6E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		287400971A9A6E72008B6E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				287400961A9A6E72008B6E8C /* Project 4.app */,
+				287400AF1A9A6E72008B6E8C /* Project 4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		287400981A9A6E72008B6E8C /* Project 4 */ = {
+			isa = PBXGroup;
+			children = (
+				287400C81A9A7C70008B6E8C /* Images */,
+				287400A31A9A6E72008B6E8C /* Main.storyboard */,
+				287400A01A9A6E72008B6E8C /* ViewController.h */,
+				287400A11A9A6E72008B6E8C /* ViewController.m */,
+				2874012D1A9A8BC5008B6E8C /* DetailViewController.h */,
+				2874012E1A9A8BC5008B6E8C /* DetailViewController.m */,
+				287401301A9A9230008B6E8C /* MovieViewController.h */,
+				287401311A9A9230008B6E8C /* MovieViewController.m */,
+				287400A61A9A6E72008B6E8C /* Images.xcassets */,
+				287400A81A9A6E72008B6E8C /* LaunchScreen.xib */,
+				287400BF1A9A6F4E008B6E8C /* CustomTableViewCell.h */,
+				287400C01A9A6F4E008B6E8C /* CustomTableViewCell.m */,
+				287400C51A9A74DD008B6E8C /* TheaterInfo.h */,
+				287400C61A9A74DD008B6E8C /* TheaterInfo.m */,
+				287400C21A9A7441008B6E8C /* MovieInfo.h */,
+				287400C31A9A7441008B6E8C /* MovieInfo.m */,
+				287400991A9A6E72008B6E8C /* Supporting Files */,
+			);
+			path = "Project 4";
+			sourceTree = "<group>";
+		};
+		287400991A9A6E72008B6E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2874009D1A9A6E72008B6E8C /* AppDelegate.h */,
+				2874009E1A9A6E72008B6E8C /* AppDelegate.m */,
+				2874009A1A9A6E72008B6E8C /* Info.plist */,
+				2874009B1A9A6E72008B6E8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		287400B21A9A6E72008B6E8C /* Project 4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				287400B51A9A6E72008B6E8C /* Project_4Tests.m */,
+				287400B31A9A6E72008B6E8C /* Supporting Files */,
+			);
+			path = "Project 4Tests";
+			sourceTree = "<group>";
+		};
+		287400B31A9A6E72008B6E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				287400B41A9A6E72008B6E8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		287400C81A9A7C70008B6E8C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				287400FB1A9A7CAD008B6E8C /* american_sniper.jpg */,
+				287400FC1A9A7CAD008B6E8C /* big_hero_6.jpg */,
+				287400FD1A9A7CAD008B6E8C /* birdman.jpg */,
+				287400FE1A9A7CAD008B6E8C /* boyhood.jpg */,
+				287400FF1A9A7CAD008B6E8C /* equalizer.jpg */,
+				287401001A9A7CAD008B6E8C /* fifty_shades.jpg */,
+				287401011A9A7CAD008B6E8C /* fury.jpg */,
+				287401021A9A7CAD008B6E8C /* gone_girl.jpg */,
+				287401031A9A7CAD008B6E8C /* horrible_bosses_2.jpg */,
+				287401041A9A7CAD008B6E8C /* hot_tub.jpg */,
+				287401051A9A7CAD008B6E8C /* imitation_game.jpg */,
+				287401061A9A7CAD008B6E8C /* john_wick.jpg */,
+				287401071A9A7CAD008B6E8C /* jupiter.jpg */,
+				287401081A9A7CAD008B6E8C /* kingsman.jpg */,
+				287401091A9A7CAD008B6E8C /* lotr_fellowship.jpg */,
+				2874010A1A9A7CAD008B6E8C /* lotr_return.jpg */,
+				2874010B1A9A7CAD008B6E8C /* lotr_towers.jpg */,
+				2874010C1A9A7CAD008B6E8C /* lucy.jpg */,
+				2874010D1A9A7CAD008B6E8C /* nightcrawler.jpg */,
+				2874010E1A9A7CAD008B6E8C /* project_almanac.jpg */,
+				2874010F1A9A7CAD008B6E8C /* seventh_son.jpg */,
+				287401101A9A7CAD008B6E8C /* spongebob.jpg */,
+				287401111A9A7CAD008B6E8C /* sw_hope.jpg */,
+				287401121A9A7CAD008B6E8C /* sw_phantom.jpg */,
+				287401131A9A7CAD008B6E8C /* treehouse.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		287400951A9A6E72008B6E8C /* Project 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287400B91A9A6E72008B6E8C /* Build configuration list for PBXNativeTarget "Project 4" */;
+			buildPhases = (
+				287400921A9A6E72008B6E8C /* Sources */,
+				287400931A9A6E72008B6E8C /* Frameworks */,
+				287400941A9A6E72008B6E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 4";
+			productName = "Project 4";
+			productReference = 287400961A9A6E72008B6E8C /* Project 4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		287400AE1A9A6E72008B6E8C /* Project 4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287400BC1A9A6E72008B6E8C /* Build configuration list for PBXNativeTarget "Project 4Tests" */;
+			buildPhases = (
+				287400AB1A9A6E72008B6E8C /* Sources */,
+				287400AC1A9A6E72008B6E8C /* Frameworks */,
+				287400AD1A9A6E72008B6E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				287400B11A9A6E72008B6E8C /* PBXTargetDependency */,
+			);
+			name = "Project 4Tests";
+			productName = "Project 4Tests";
+			productReference = 287400AF1A9A6E72008B6E8C /* Project 4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2874008E1A9A6E72008B6E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Chance McAdams";
+				TargetAttributes = {
+					287400951A9A6E72008B6E8C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					287400AE1A9A6E72008B6E8C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 287400951A9A6E72008B6E8C;
+					};
+				};
+			};
+			buildConfigurationList = 287400911A9A6E72008B6E8C /* Build configuration list for PBXProject "Project 4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2874008D1A9A6E72008B6E8C;
+			productRefGroup = 287400971A9A6E72008B6E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				287400951A9A6E72008B6E8C /* Project 4 */,
+				287400AE1A9A6E72008B6E8C /* Project 4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		287400941A9A6E72008B6E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2874011E1A9A7CAD008B6E8C /* imitation_game.jpg in Resources */,
+				287400A51A9A6E72008B6E8C /* Main.storyboard in Resources */,
+				287401281A9A7CAD008B6E8C /* seventh_son.jpg in Resources */,
+				2874011B1A9A7CAD008B6E8C /* gone_girl.jpg in Resources */,
+				2874011D1A9A7CAD008B6E8C /* hot_tub.jpg in Resources */,
+				2874012B1A9A7CAD008B6E8C /* sw_phantom.jpg in Resources */,
+				287401251A9A7CAD008B6E8C /* lucy.jpg in Resources */,
+				287401291A9A7CAD008B6E8C /* spongebob.jpg in Resources */,
+				287401211A9A7CAD008B6E8C /* kingsman.jpg in Resources */,
+				2874011A1A9A7CAD008B6E8C /* fury.jpg in Resources */,
+				287401241A9A7CAD008B6E8C /* lotr_towers.jpg in Resources */,
+				287400AA1A9A6E72008B6E8C /* LaunchScreen.xib in Resources */,
+				2874012C1A9A7CAD008B6E8C /* treehouse.jpg in Resources */,
+				287401171A9A7CAD008B6E8C /* boyhood.jpg in Resources */,
+				287401141A9A7CAD008B6E8C /* american_sniper.jpg in Resources */,
+				287401221A9A7CAD008B6E8C /* lotr_fellowship.jpg in Resources */,
+				2874011F1A9A7CAD008B6E8C /* john_wick.jpg in Resources */,
+				287401151A9A7CAD008B6E8C /* big_hero_6.jpg in Resources */,
+				287401231A9A7CAD008B6E8C /* lotr_return.jpg in Resources */,
+				2874012A1A9A7CAD008B6E8C /* sw_hope.jpg in Resources */,
+				287401191A9A7CAD008B6E8C /* fifty_shades.jpg in Resources */,
+				287400A71A9A6E72008B6E8C /* Images.xcassets in Resources */,
+				287401181A9A7CAD008B6E8C /* equalizer.jpg in Resources */,
+				287401201A9A7CAD008B6E8C /* jupiter.jpg in Resources */,
+				287401261A9A7CAD008B6E8C /* nightcrawler.jpg in Resources */,
+				2874011C1A9A7CAD008B6E8C /* horrible_bosses_2.jpg in Resources */,
+				287401161A9A7CAD008B6E8C /* birdman.jpg in Resources */,
+				287401271A9A7CAD008B6E8C /* project_almanac.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287400AD1A9A6E72008B6E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		287400921A9A6E72008B6E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287400A21A9A6E72008B6E8C /* ViewController.m in Sources */,
+				287400C41A9A7441008B6E8C /* MovieInfo.m in Sources */,
+				2874009F1A9A6E72008B6E8C /* AppDelegate.m in Sources */,
+				287400C71A9A74DD008B6E8C /* TheaterInfo.m in Sources */,
+				287400C11A9A6F4E008B6E8C /* CustomTableViewCell.m in Sources */,
+				2874009C1A9A6E72008B6E8C /* main.m in Sources */,
+				2874012F1A9A8BC5008B6E8C /* DetailViewController.m in Sources */,
+				287401321A9A9230008B6E8C /* MovieViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287400AB1A9A6E72008B6E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287400B61A9A6E72008B6E8C /* Project_4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		287400B11A9A6E72008B6E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 287400951A9A6E72008B6E8C /* Project 4 */;
+			targetProxy = 287400B01A9A6E72008B6E8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		287400A31A9A6E72008B6E8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287400A41A9A6E72008B6E8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		287400A81A9A6E72008B6E8C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287400A91A9A6E72008B6E8C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		287400B71A9A6E72008B6E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		287400B81A9A6E72008B6E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		287400BA1A9A6E72008B6E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		287400BB1A9A6E72008B6E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		287400BD1A9A6E72008B6E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Project 4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 4.app/Project 4";
+			};
+			name = Debug;
+		};
+		287400BE1A9A6E72008B6E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Project 4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 4.app/Project 4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		287400911A9A6E72008B6E8C /* Build configuration list for PBXProject "Project 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287400B71A9A6E72008B6E8C /* Debug */,
+				287400B81A9A6E72008B6E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287400B91A9A6E72008B6E8C /* Build configuration list for PBXNativeTarget "Project 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287400BA1A9A6E72008B6E8C /* Debug */,
+				287400BB1A9A6E72008B6E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		287400BC1A9A6E72008B6E8C /* Build configuration list for PBXNativeTarget "Project 4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287400BD1A9A6E72008B6E8C /* Debug */,
+				287400BE1A9A6E72008B6E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2874008E1A9A6E72008B6E8C /* Project object */;
+}
